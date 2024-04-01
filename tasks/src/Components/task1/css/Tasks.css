@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.task1>h1{
+    background-color: red;
+}
+.form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .form label {
+    margin-top: 10px;
+    display: block;
+    font-weight: bold;
+  }
+  
+  .form input[type="text"],
+  .form input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form input[type="radio"] {
+    margin: 0 5px 20px 5px;
+  }
+  
+  .form input[type="checkbox"] {
+    margin-top: 5px;
+    display: flex;
+  }
+  /* Header  */
+ .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ccc;
+    padding: 10px;
+ }
+ .menu>ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+ }
+ .menu>ul>li>a{
+    text-decoration: none;
+ }
+ #button>button{
+    padding: 10px;
+    width: 120px;
+    font-weight: bold;
+    border-radius: 4px;
+    border: none;
+ }
+ footer{
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 15px;
+    line-height: 45px;
+ }
+.footerItems{
+    
+    display: flex;
+    justify-content: space-around;
+}
