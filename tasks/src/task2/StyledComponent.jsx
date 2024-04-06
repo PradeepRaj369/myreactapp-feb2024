@@ -42,22 +42,22 @@ class StyleComponent extends React.Component{
             <Div1 >
             <DivChild1>
                 <ImageCard src={imge1} alt="fur" />
-                <P>Furniture</P>
-                <p>Price:3500</p>
-                <BtnCard>Add ToCart</BtnCard>
+                <P>Dhoni</P>
+                <p>Highscore:3500</p>
+                <BtnCard>Add To Team</BtnCard>
             </DivChild1>
 
             <DivChild1>
                 <ImageCard src={imge2} alt="mobile" />
-                <P>Mobile</P>
-                <p>Price:4000</p>
-                <BtnCard>Add ToCart</BtnCard>
+                <P>Virat</P>
+                <p>Highscore:4000</p>
+                <BtnCard>Add To Team</BtnCard>
             </DivChild1>
             <DivChild1>
             <ImageCard src={imge3} alt="Head" />
-                <P>Headset</P>
-                <p>price:9000</p>
-                <BtnCard>Add ToCart</BtnCard>
+                <P>ABD</P>
+                <p>Highscore:9000</p>
+                <BtnCard>Add To Team</BtnCard>
             </DivChild1>
             </Div1>
             </>

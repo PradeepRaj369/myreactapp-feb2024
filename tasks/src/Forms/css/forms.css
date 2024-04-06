@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body{
+    background-color:#ccffeb;
+} */
+.Container{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 10px;
+    /* border: 2px solid black; */
+    background-color:rgb(250,251,255) ;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: 80%;
+}
+.image>img{
+    width: 500px;
+    height: 500px;
+    text-align: center;
+}
+.form{
+    border: none;
+    justify-content: center;
+    background-color:rgb(255,255,255) ;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;;
+    padding: 30px;
+    /* line-height: 30px; */
+}
+.form>h3{
+    text-align: center;
+}
+.form>button{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    margin:20px;
+    align-items: center;
+    border-radius: 5px;
+    width: 90%;
+    cursor: pointer;
+}
+
+.radioButtons{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+.pwd{
+    display: flex;
+    gap: 10px;
+    font-size: 30px;
+    margin-top: 0px;
+    width: 100%;
+}
+a{
+    cursor: pointer;
+}
+span{
+    color: red;
+    margin-bottom: 5px;
+}
+
+   /* Todo Styles */
+   .TodoBox {
+    margin: 20px auto;
+    width: 400px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #ccc;
+}
+
+.AddItem {
+    width: 70%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#addBtn {
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#addElements{
+    border: 2px solid black;
+    color: blue;
+}
+#deleteBtn,#updateBtn,#editBtn{
+    padding: 5px;
+    margin: 5px;
+    width: 50px;
+    border: none;
+    color: white;
+}
+.terms{
+    display: flex;
+    gap: 10px;
+}
+.terms>p{
+    margin: 12px;
+
+}
+

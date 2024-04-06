@@ -18,7 +18,7 @@ class CreateAlert extends React.Component {
   render() {
     return (
       <div>
-        <h2>This is a Alert Component</h2>
+        <h2>Hello World</h2>
       </div>
     );
   }

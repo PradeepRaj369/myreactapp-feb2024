@@ -18,6 +18,10 @@ import Countdown from './task2/Countdown'
 import Stopwatch from './task2/Stopwatch'
 import ChangeButton from './task2/ChangeButton'
 import HighlightColor from './task2/HighlightColor'
+import Temp from './task2/Temp'
+import MainTask4 from './Hooks/MainTask4'
+import FormsMain from './Forms/FormsMain'
+import ProductList from './Axios/ProductList'
 const App = () => {
   return (
     <div>
@@ -36,8 +40,8 @@ const App = () => {
       <Footer /> */}
 
       {/* Tasks 2 */}
-      {/* <h1>Counter App</h1>   */}
-      {/* <Counter incre={1}/>
+      {/* <h1>Counter App</h1>  
+      <Counter incre={1}/>
       <Counter incre={5}/>
       <Counter incre={10}/>
 
@@ -53,18 +57,23 @@ const App = () => {
     <StyledComponent />
 
     <Toggle /> */}
-    <CreateAlert />
 
-    <Stopwatch />
+    {/* <CreateAlert /> */}
 
-    <ChangeButton />
+    {/* <Stopwatch /> */}
 
-    <Countdown initialTime={10} />
+    {/* <ChangeButton /> */}
+
+    {/* <Countdown initialTime={10} />
     <Countdown initialTime={50} />
-    <Countdown initialTime={100} />
+    <Countdown initialTime={100} /> */}
 
-    <HighlightColor />
+    {/* <HighlightColor /> */}
 
+    {/* <MainTask4 /> */}
+    {/* <FormsMain /> */}
+
+    <ProductList />
 
     </div>
   )
